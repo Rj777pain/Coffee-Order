@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285573944682",
+    "firebase_url": "https://coffee-order-571cf.firebaseio.com",
+    "project_id": "coffee-order-571cf",
+    "storage_bucket": "coffee-order-571cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285573944682:android:71872974f6cea89d1b4113",
+        "android_client_info": {
+          "package_name": "hack.coffeeorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285573944682-v144ah2s1g44upf20u2j8odh498onk83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchkKgc3Sh9GtuBdhrJg9sMo60qptDd70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285573944682-v144ah2s1g44upf20u2j8odh498onk83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
