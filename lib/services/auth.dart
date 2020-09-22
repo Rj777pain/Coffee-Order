@@ -1,4 +1,5 @@
 import 'package:coffeeorder/models/userd.dart';
+import 'package:coffeeorder/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'dart:async';
 
@@ -46,6 +47,9 @@ class AuthServices{
     try{
       UserCredential userCredential=await _auth.createUserWithEmailAndPassword(email: email, password: pswd);
       User user= userCredential.user;
+
+      //create a new document for user with uid
+      await DatabaseService(uid: user.uid).updateUserData('0', 'new crew member', 100);
       return _userFromUserCredintial(user);
     }catch(e){
       print(e.toString());
